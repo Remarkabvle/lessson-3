@@ -1,5 +1,12 @@
+header{
+    height: 100vh;
+    width: 100%;
+    background: url(../images/hero\ image.svg) no-repeat center ;
+    background-size: cover;
+}
+
 nav{
-    position: fixed;
+    position: fixed; 
     top: 0;
     left: 0;
     width: 100%;
@@ -8,8 +15,11 @@ nav{
 }
 
 .show-navshrink{
+    padding: 10px 0px;
     box-shadow: 0px 0px 15px gray;
-    background: white;
+    background: black;
+    transition: 0.3s;
+
 }
 
 .header__nav-logo{
@@ -23,7 +33,7 @@ nav{
     gap: 20px;
 }
 
-.header__nav-list{
+.header__nav-list{      
     gap: 15px;
 }
 
@@ -34,6 +44,7 @@ nav{
     border-bottom: 1.5px solid transparent;
     transition: 0.3s;
     position: relative;
+    color: white;
 }
 
 .header__nav-item:hover{
@@ -101,9 +112,10 @@ nav{
 }
 
 .header__nav__contact-btn{
-    padding: 6px 15px;
-    border: 1.5px solid black;
-    border-radius: 2px;
+    padding: 20px 15px;
+    border: 1.5px solid orange;
+    color: white;
+    border-radius: 1px;
     background: transparent;
     font-size: 16px;
     font-weight: 600;
@@ -112,7 +124,8 @@ nav{
 
 .header__nav__contact-btn:hover{
     border-color: orange;
-    color: orange;
+    background: orange;
+    color: white;
 }
 
 .header__nav__hamburger-btn{
@@ -158,4 +171,17 @@ nav{
 
 main{
     padding-top: 100px;
+}
+
+.header__info{
+    display: flex;
+    flex-direction: column;
+}
+.header__phone-number{
+    font-size: 20px;
+    color: white;
+}
+.header__informations{
+    color: white;
+    max-width: 154px;
 }
