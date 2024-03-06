@@ -1,0 +1,29 @@
+.celebrate{
+ 
+    background: url(../images/delicious-1866631_1920\ 1.png) no-repeat center;
+    background-size: cover;
+    height: 40vh;
+    margin-bottom: 80px;
+}
+
+.mack{
+    display: flex;
+    justify-content: space-between;
+}
+
+.celebrate__title{
+    position: relative;
+    top: 10px;
+    color: rgb(219, 181, 110);
+}
+
+.celebrate__text{
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.celebrate__btn{
+    position: relative;
+    top: 80px;
+}

@@ -1,0 +1,31 @@
+.hero{
+    position: relative;
+}
+
+.hero__header{
+    color: rgba(255, 166, 0, 0.561);
+    position: relative;
+    top: 280px;
+    font-size: 50px;
+    max-width: 456px;
+}
+
+.hero__header span{
+    color: orange;
+    font-size: 70px;
+    font-weight: 300;
+}
+
+.hero__info{
+    display: flex;
+    gap: 5px;
+    color: white;
+    margin-top: 300px;
+    margin-left: 60px;
+}
+.hero__btn{
+    margin-left: 140px;
+    margin-top: 10px;
+}
+
+

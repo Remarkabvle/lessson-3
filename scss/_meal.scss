@@ -1,0 +1,26 @@
+.meal__title{
+    margin-bottom: 90px;
+}
+
+.meal__part-of-meal{
+    display: flex;
+    justify-content: space-between;
+}
+
+.meal__images{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.meal__menu{
+    display: flex;
+    flex-direction: column;
+    gap: 180px;
+    margin-top: 20px;
+}
+
+.m{
+    margin-top: 4px;
+    font-size: 70px;
+}

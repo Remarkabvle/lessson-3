@@ -155,7 +155,7 @@ nav {
   height: 100%;
 }
 
-.header__nav__contact-btn {
+.ebtn {
   padding: 20px 15px;
   border: 1.5px solid orange;
   color: white;
@@ -166,7 +166,7 @@ nav {
   transition: 0.3s;
 }
 
-.header__nav__contact-btn:hover {
+.ebtn:hover {
   border-color: orange;
   background: orange;
   color: white;
@@ -222,10 +222,154 @@ main {
 
 .header__phone-number {
   font-size: 20px;
+  cursor: pointer;
   color: white;
 }
 
 .header__informations {
   color: white;
+  cursor: pointer;
   max-width: 154px;
+}
+
+.header__informations:hover {
+  color: orange;
+  cursor: pointer;
+}
+
+.header__phone-number:hover {
+  color: orange;
+  cursor: pointer;
+}
+
+.hero {
+  position: relative;
+}
+
+.hero__header {
+  color: rgba(255, 166, 0, 0.561);
+  position: relative;
+  top: 280px;
+  font-size: 50px;
+  max-width: 456px;
+}
+
+.hero__header span {
+  color: orange;
+  font-size: 70px;
+  font-weight: 300;
+}
+
+.hero__info {
+  display: flex;
+  gap: 5px;
+  color: white;
+  margin-top: 300px;
+  margin-left: 60px;
+}
+
+.hero__btn {
+  margin-left: 140px;
+  margin-top: 10px;
+}
+
+.history__part {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+.history__title {
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.history__title span {
+  color: orange;
+}
+
+.history__text {
+  margin-top: 15px;
+  max-width: 444px;
+  align-items: center;
+  color: gray;
+  font-size: 20px;
+}
+
+.nap {
+  font-size: 50px;
+  display: flex;
+  flex-direction: column;
+  color: orange;
+}
+
+.nap span {
+  font-size: 24px;
+  color: black;
+}
+
+.son {
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+
+.celebrate {
+  background: url(../images/delicious-1866631_1920\ 1.png) no-repeat center;
+  background-size: cover;
+  height: 40vh;
+  margin-bottom: 80px;
+}
+
+.mack {
+  display: flex;
+  justify-content: space-between;
+}
+
+.celebrate__title {
+  position: relative;
+  top: 10px;
+  color: rgb(219, 181, 110);
+}
+
+.celebrate__text {
+  color: white;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.celebrate__btn {
+  position: relative;
+  top: 80px;
+}
+
+.meal__title {
+  margin-bottom: 90px;
+}
+
+.meal__part-of-meal {
+  display: flex;
+  justify-content: space-between;
+}
+
+.meal__images {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.meal__menu {
+  display: flex;
+  flex-direction: column;
+  gap: 180px;
+  margin-top: 20px;
+}
+
+.m {
+  margin-top: 4px;
+  font-size: 70px;
 }

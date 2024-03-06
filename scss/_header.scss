@@ -111,7 +111,7 @@ nav{
     height: 100%;
 }
 
-.header__nav__contact-btn{
+.ebtn{
     padding: 20px 15px;
     border: 1.5px solid orange;
     color: white;
@@ -122,7 +122,7 @@ nav{
     transition: 0.3s;
 }
 
-.header__nav__contact-btn:hover{
+.ebtn:hover{
     border-color: orange;
     background: orange;
     color: white;
@@ -179,9 +179,23 @@ main{
 }
 .header__phone-number{
     font-size: 20px;
+    cursor: pointer;
+
     color: white;
 }
 .header__informations{
     color: white;
+    cursor: pointer;
+
     max-width: 154px;
+}
+
+.header__informations:hover{
+    color: orange;
+    cursor: pointer;
+}
+.header__phone-number:hover{
+    color: orange;
+    cursor: pointer;
+
 }
